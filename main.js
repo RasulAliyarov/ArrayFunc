@@ -3,8 +3,8 @@ let numbers = [1, 2, 3, 4];
 
 console.log(numbers)
 
-for (let i = 0; i < numbers.length; i++) {
-    console.log(numbers[i] + 1)
+for (let i = 0; i < numbers.length; i++) { //O(n+1)
+    console.log(numbers[i] + 1) // O(n)
 }
 
 /////Functions
